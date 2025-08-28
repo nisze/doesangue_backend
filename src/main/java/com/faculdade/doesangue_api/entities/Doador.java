@@ -148,4 +148,10 @@ public class Doador {
 
     @Column(name = "DELETED_AT")
     private LocalDateTime deletedAt;
+
+    @Column(name = "FOTO_PERFIL_URL", length = 500)
+    private String fotoPerfilUrl;
+
+    @Column(name = "FOTO_PERFIL_UPLOAD_EM")
+    private LocalDateTime fotoPerfilUploadEm;
 }

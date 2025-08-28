@@ -88,4 +88,10 @@ public class User {
     @JoinColumn(name = "ID_ROLE", nullable = false)
     private UserRole userRole;
 
+    @Column(name = "FOTO_PERFIL_URL", length = 500)
+    private String fotoPerfilUrl;
+
+    @Column(name = "FOTO_PERFIL_UPLOAD_EM")
+    private LocalDateTime fotoPerfilUploadEm;
+
 }
