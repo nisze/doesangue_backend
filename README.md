@@ -1,1 +1,1 @@
-(https://nisze.github.io/doe-sangue-doc/index.html)
+https://nisze.github.io/doe-sangue-doc/index.html
